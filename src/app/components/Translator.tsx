@@ -38,7 +38,7 @@ export default function Translator() {
     setError("");
 
     try {
-      const response = await fetch("/api/translate", {
+      const response = await fetch("https://api-translate.guillermo-516.workers.dev/translate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
